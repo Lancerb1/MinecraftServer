@@ -1,0 +1,21 @@
+General { 
+  luaTicksLimit=50000,
+  eventListenerLuaTickLimit=50000,
+  showAboutMessage=true,
+  luaLibDirHome="libs",
+  sharedLibDir="shared",
+  gitHubAccessToken="" }
+RestApi { 
+  hostname="127.0.0.1",
+  port=60000,
+  secure=false,
+  keystore="",
+  keystorePassword="",
+  keyPassword="",
+  webDir="www",
+  uuid="a36d6569-9b84-4dd9-84e8-aad4a74f93a6",
+  apiKey="kkoMezKNY6dOaEp-RyQiAw" }
+ScriptGateway { 
+  enabled=false,
+  timeoutMillis=2000,
+  dir="scripts" }
